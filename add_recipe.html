@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+        <h3>
+        <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li><a href="add_recipe.html"> Add Recipe </a></li>
+            <li><a href="recipe_list.html"> Recipe List </a></li>
+        </ul>
+        </h3>
+    </nav>
+</header>
+ 
+
+<main>
+<hr>
+
+<dl>
+    <h1>Recipe Submission Form</h1>
+
+    <dd>Here you can easily share your favorite and delicious recipes with others.
+         Add your own special dishes and cooking instructions so that everyone can
+          enjoy and try your tasty creations. It’s a great way to share your love
+           for food and connect with people through your recipes.</dd>
+</dl>
+
+<hr>
+
+<h2>Submit Your Recipe</h2>
+
+<form action=""  method="post">
+
+<label for="rname"><h3> Recipe name:</h3></label>
+<input type="text" name="rname" id="rname" placeholder="Write Your Recipe Name" required>
+
+<br><br><br><br>
+
+<label for="ingredients"><h3> Ingredients: </h3></label>
+<textarea name="ingredients" id="ingredients" cols="60" rows="10"> </textarea>
+
+<br><br><br><br>
+
+<label for="instruction"> <h3>Cooking Instruvtions:</h3></label>
+<textarea name="instruction" id="instruction" cols="60" rows="10" required></textarea>
+
+<br><br><br><br>
+
+<label for="image"><h3>Image URL:</h3></label>
+
+<input type="file" name="image" id="image">
+
+<br><br><br><br>
+
+<label for="category"><h3>Recipe Category:</h3></label>
+<select name="category" id="category">
+
+<option value="">Select </option>
+<option value="Desserts">Desserts</option>
+<option value="Afghan Food">Afghan Food</option>
+<option value="Appetizers">Appetizers</option>
+<option value="Main Course">Main Course</option>
+<option value="Drinks">Drinks</option>
+
+</select>
+
+</form>
+
+<br><br><br><br><br><br><br>
+
+<input type="submit" method="post" value="Add Recipe"></input>
+
+<br><br><br><br> <hr>
+</main>
+
+<footer>Made by: Laleh Tokhi</footer>
+
+</body>
+</html>
